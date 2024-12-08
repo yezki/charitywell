@@ -20,7 +20,7 @@ export const MobileMenu = ({
       { "-translate-y-full": !isOpen },
     )}>
       {navigationItems.map(({ label, href }) => (
-        <Link href={href} label={label} currentHash={currentHash} />
+        <Link key={label} href={href} label={label} currentHash={currentHash} />
       ))}
       <div className="py-2 flex flex-col gap-2">
         <Button className="text-md font-bold" size="sm" variant="outline">
@@ -42,7 +42,7 @@ export const Menu = () => {
   return (
     <nav className="px-4 hidden lg:flex">
       {navigationItems.map(({ label, href }) => (
-        <Link href={href} label={label} currentHash={currentHash} />
+        <Link key={label} href={href} label={label} currentHash={currentHash} />
       ))}
     </nav>
   );
