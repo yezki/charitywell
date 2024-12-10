@@ -1,10 +1,10 @@
 import { twMerge } from "tailwind-merge";
 
-type SectionProps = {
+interface SectionProps {
   id: string;
   className?: string;
   children: React.ReactNode;
-};
+}
 
 export const Section = ({
   id,
