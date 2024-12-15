@@ -6,6 +6,7 @@ const buttonVariants = cva("inline-flex items-center justify-center gap-2 whites
   variants: {
     variant: {
       default: "bg-teal-800 text-white hover:bg-teal-800/90",
+      secondary: "bg-white text-teal-800 hover:bg-white/90",
       outline: "border border-teal-800 bg-white text-teal-800 hover:bg-neutral-100",
       ghost: "bg-white text-black hover:bg-neutral-100",
     },

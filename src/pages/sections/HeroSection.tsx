@@ -14,7 +14,7 @@ export default function HeroSection() {
           <p className="lg:text-lg leading-loose lg:leading-10">
             Every contribution, big or small, helps us turn compassion into action, creating lasting impact on lives and communities.
           </p>
-          <Button className="text-md font-bold lg:h-11 lg:rounded-md lg:px-8">
+          <Button className="text-md font-bold" size="lg">
             <HandHeart className="size-4" />
             Donate now
           </Button>

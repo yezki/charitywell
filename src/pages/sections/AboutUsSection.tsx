@@ -16,7 +16,7 @@ export default function AboutUsSection() {
           <p className="py-4 leading-loose lg:leading-9">
             At CharityWell, we are more than just a charity—we are a community united by a shared vision of a world where compassion flows freely and reaches every person in need. Our team is driven by the desire to make a meaningful difference, leveraging our collective skills and resources to support those facing adversity.
           </p>
-          <Button className="font-bold lg:h-10 lg:px-4 lg:py-2" size="sm">
+          <Button className="font-bold">
             Explore More
             <ArrowRight className="size-4" />
           </Button>

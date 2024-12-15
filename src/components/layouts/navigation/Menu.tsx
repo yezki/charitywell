@@ -23,11 +23,11 @@ export const MobileMenu = ({
         <Link key={label} href={href} label={label} currentHash={currentHash} />
       ))}
       <div className="py-2 flex flex-col gap-2">
-        <Button className="font-bold" size="sm" variant="outline">
+        <Button className="font-bold" variant="outline">
           <HeartHandshake className="size-4" />
           Join us
         </Button>
-        <Button className="font-bold" size="sm">
+        <Button className="font-bold">
           <HandHeart className="size-4" />
           Donate now
         </Button>
