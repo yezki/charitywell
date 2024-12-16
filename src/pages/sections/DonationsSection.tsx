@@ -7,7 +7,8 @@ import { DonationsCard } from "../../components/DonationsCard";
 export default function DonationsSection() {
   return (
     <Section id="donations" className="bg-teal-800">
-      <div className="w-full lg:max-w-7xl lg:mx-auto flex flex-col gap-16 items-center p-8 lg:py-20">
+      <div className="w-full lg:max-w-7xl lg:mx-auto bg-[url('/images/2149230539.jpg')] bg-cover bg-no-repeat bg-top bg-fixed">
+        <div className="flex flex-col gap-16 items-center p-8 lg:py-20 backdrop-grayscale bg-gradient-to-r from-teal-800 via-teal-800/50 via-50% to-teal-800">
         <div className="flex flex-col text-center">
           <span className="text-xs lg:text-sm text-neutral-200 tracking-widest">
             DONATIONS
@@ -43,6 +44,7 @@ export default function DonationsSection() {
           See more
           <ArrowRight className="size-4" />
         </Button>
+        </div>
       </div>
     </Section>
   );
