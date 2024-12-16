@@ -2,6 +2,7 @@ import HeroSection from "./sections/HeroSection";
 import AboutUsSection from "./sections/AboutUsSection";
 import DonationsSection from "./sections/DonationsSection";
 import OurServicesSection from "./sections/OurServicesSection";
+import FAQSection from "./sections/FAQSection";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <AboutUsSection />
       <OurServicesSection />
       <DonationsSection />
+      <FAQSection />
     </main>
   );
 }
