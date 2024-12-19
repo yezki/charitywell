@@ -18,7 +18,7 @@ export default function FAQSection() {
             CharityWell is a non-profit organization dedicated to supporting vulnerable communities by providing shelter, food, education, and resources to improve lives and create opportunities for a better future.
           </FAQItem>
           <FAQItem question="How can I donate to CharityWell?">
-            You can donate easily through our website by clicking the “Donate Now” button. Choose a cause you want to support, enter the amount, and complete the process securely online.
+            You can donate easily through our website by clicking the “Donate now” button. Choose a cause you want to support, enter the amount, and complete the process securely online.
           </FAQItem>
           <FAQItem question="Where does my donation go?">
             Your donation directly supports our ongoing projects, including building shelters, providing school supplies for children, and assisting homeless families. We ensure full transparency by sharing updates on how your contributions are making a difference.
@@ -29,17 +29,8 @@ export default function FAQSection() {
           <FAQItem question="Is my donation tax-deductible?">
             Yes, CharityWell is a registered non-profit organization, and donations are tax-deductible to the extent allowed by law. After donating, you will receive a receipt for tax purposes.
           </FAQItem>
-          <FAQItem question="How can I stay updated on CharityWell’s activities?">
-            Stay connected by subscribing to our newsletter and following us on social media. We regularly share updates, success stories, and upcoming projects.
-          </FAQItem>
           <FAQItem question="Can I donate items instead of money?">
             Yes, we accept certain in-kind donations such as school supplies, clothing, and non-perishable food items. Visit our donation page for details on what we’re currently accepting.
-          </FAQItem>
-          <FAQItem question="Who can I contact for more information?">
-            For any inquiries, please contact us through our website or email us at <a href="#home" className="font-semibold hover:underline">info@charitywell.org</a>. We’re here to help!
-          </FAQItem>
-          <FAQItem question="How does CharityWell ensure transparency?">
-            We prioritize transparency by sharing detailed reports and updates on our projects. Donors can see the impact of their contributions through progress reports, stories, and financial disclosures on our website.
           </FAQItem>
         </div>
         <Button className="font-bold">

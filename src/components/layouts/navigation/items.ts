@@ -25,7 +25,7 @@ export const navigationItems: NavigationItem[] = [
     href: "#faq",
   },
   {
-    label: "Contact",
-    href: "#contact",
+    label: "Contact Us",
+    href: "#contact-us",
   },
 ];
