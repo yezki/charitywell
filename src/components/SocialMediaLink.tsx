@@ -8,7 +8,7 @@ export const SocialMediaLink = ({
 }: AnchorHTMLAttributes<HTMLAnchorElement>) => {
   return (
     <a className={twMerge(
-      "h-10 w-10 flex justify-center items-center bg-white text-teal-800 rounded-full border-2 border-teal-800 ring-2 ring-teal-800 hover:ring-white cursor-pointer transition",
+      "h-10 w-10 flex justify-center items-center bg-white text-teal-800 rounded-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-teal-800 hover:ring-white cursor-pointer",
       className,
     )} {...props}>
       {children}

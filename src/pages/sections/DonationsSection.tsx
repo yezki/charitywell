@@ -40,7 +40,7 @@ export default function DonationsSection() {
             Your donation can offer homeless families shelter, food, and the resources they need to rebuild their lives with dignity and hope.
           </DonationsCard>
         </div>
-        <Button variant="secondary" className="font-bold">
+        <Button variant="secondary">
           See more
           <ArrowRight className="size-4" />
         </Button>
