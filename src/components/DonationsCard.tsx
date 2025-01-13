@@ -1,6 +1,7 @@
 import { HandHeart } from "lucide-react";
 
 import { Button } from "./Button";
+import { Progress } from "./Progress";
 
 interface DonationsCardProps {
   children: React.ReactNode;
@@ -29,11 +30,7 @@ export const DonationsCard = ({
         </p>
       </div>
       <div className="flex flex-col">
-        <progress value={progress} max="100" className="h-1 w-full bg-neutral-200">
-          <div className="bg-neutral-200 h-1 w-full flex">
-            <span className={`w-[${progress}%] bg-teal-800`}></span>
-          </div>
-        </progress>
+        <Progress value={progress} />
         <span className="text-sm text-teal-800 font-bold">
           {progress}%
         </span>
