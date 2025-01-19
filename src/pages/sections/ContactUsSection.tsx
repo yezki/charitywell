@@ -1,3 +1,5 @@
+import { Mail, MapPin, PhoneCall } from "lucide-react";
+
 import { Section } from "../../components/layouts/Section";
 
 export default function ContactUsSection() {
@@ -13,54 +15,81 @@ export default function ContactUsSection() {
           </h2>
         </div>
 
-        <div className="flex flex-col lg:flex-row justify-between gap-8">
-          <div className="flex flex-col gap-2">
-            <h3 className="text-lg font-bold">Mailing address</h3>
-            <div className="text-sm flex flex-col gap-2">
-              <span className="font-semibold">CharityWell Headquarters</span>
-              <span>KH. Ahmad Dahlan Street</span>
-              <span>Sumberbaru District</span>
-              <span>Jember, 68156</span>
-              <span>Indonesia</span>
+        <div className="grid lg:grid-cols-3 lg:justify-between gap-8">
+          <div className="flex gap-6 lg:mx-auto">
+            <MapPin className="size-12 text-teal-800" />
+            <div className="flex flex-col gap-1">
+              <h3 className="text-neutral-700">Come see us</h3>
+              <div className="flex flex-col text-teal-800 font-bold">
+                <span className="text-sm font-medium">
+                  (CharityWell Headquarters)
+                </span>
+                <span>KH. Ahmad Dahlan Street</span>
+                <span>Sumberbaru District</span>
+                <span>Jember, 68156</span>
+                <span>Indonesia</span>
+              </div>
             </div>
           </div>
 
-          <div className="flex flex-col gap-2">
-            <h3 className="text-lg font-bold">
-              Email
-            </h3>
-            <ul className="list-disc list-inside text-sm flex flex-col gap-2">
-              <li>
-                For media inquiries, please contact {" "}
-                <a
-                  href="#home"
-                  className="text-teal-900 font-medium hover:underline"
-                >
-                  media@charitywell.org
-                </a>.
-              </li>
-              <li>
-                For donation inquiries, please contact {" "}
-                <a href="#home" className="text-teal-900 font-medium hover:underline">
-                  donations@charitywell.org
-                </a>.
-              </li>
-              <li>
-                For other inquiries, please contact {" "}
-                <a href="#home" className="text-teal-900 font-medium hover:underline">
-                  info@charitywell.org
-                </a>.
-              </li>
-            </ul>
+          <div className="flex gap-6 lg:mx-auto">
+            <span>
+              <Mail className="size-12 text-teal-800" />
+            </span>
+            <div className="flex flex-col gap-1">
+              <h3 className="text-neutral-700">
+                Send us an email
+              </h3>
+              <div className="flex flex-col gap-2">
+                <div className="flex flex-col text-teal-800">
+                  <span className="font-medium text-sm">
+                    (Media Inquiries)
+                  </span>
+                  <span className="font-bold">
+                    media@charitywell.org
+                  </span>
+                </div>
+                <div className="flex flex-col text-teal-800">
+                  <span className="font-medium text-sm">
+                    (Donation Inquiries)
+                  </span>
+                  <span className="font-bold">
+                    donations@charitywell.org
+                  </span>
+                </div>
+                <div className="flex flex-col text-teal-800">
+                  <span className="font-medium text-sm">
+                    (Other Inquiries)
+                  </span>
+                  <span className="font-bold">
+                    info@charitywell.org
+                  </span>
+                </div>
+              </div>
+            </div>
           </div>
 
-          <div className="flex flex-col gap-2">
-            <h3 className="text-lg font-bold">Phone number</h3>
-            <ul className="text-sm list-disc list-inside flex flex-col gap-2">
-              <li>Landline: +62 21 9876-5432</li>
-              <li>Mobile: +62 811-2345-6789</li>
-              <li>Customer Service: 1500-555</li>
-            </ul>
+          <div className="flex gap-6 lg:mx-auto">
+            <span>
+              <PhoneCall className="size-12 text-teal-800" />
+            </span>
+            <div className="flex flex-col gap-1">
+              <h3 className="text-neutral-700">Phone number</h3>
+              <div className="flex flex-col gap-2">
+                <div className="flex flex-col text-teal-800">
+                  <span className="text-sm font-medium">(Landline)</span>
+                  <span className="font-bold">+62 331 9876-5432</span>
+                </div>
+                <div className="flex flex-col text-teal-800">
+                  <span className="text-sm font-medium">(Mobile)</span>
+                  <span className="font-bold">+62 812-3456-7890</span>
+                </div>
+                <div className="flex flex-col text-teal-800">
+                  <span className="text-sm font-medium">(Customer Service)</span>
+                  <span className="font-bold">0800-123-4567</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
