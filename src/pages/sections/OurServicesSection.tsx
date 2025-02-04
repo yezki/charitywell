@@ -15,7 +15,7 @@ export default function OurServicesSection() {
             What We Do at CharityWell
           </h2>
         </div>
-        <div className="flex flex-col lg:flex-row gap-16 lg:gap-3">
+        <div className="flex flex-col lg:flex-row lg:justify-between gap-y-16 lg:gap-x-6">
           <OurServicesCard
             title="Emergency Relief Support"
             icon={<LifeBuoy size={36} className="text-white" />}
