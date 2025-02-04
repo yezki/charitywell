@@ -19,6 +19,7 @@ export const Footer = () => {
             </a>
 
             <nav className="flex flex-col lg:flex-row gap-2 lg:gap-4 text-sm text-white pt-4">
+              <a href="#about-us" className="hover:underline">About Us</a>
               <a href="#our-services" className="hover:underline">Our Services</a>
               <a href="#donations" className="hover:underline">Donations</a>
               <a href="#faq" className="hover:underline">FAQ</a>
