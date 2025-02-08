@@ -7,6 +7,7 @@
 * [Get Started](#get-started)
 	* [Installation](#installation)
 	* [Usage](#usage)
+    * [License](#license)
 
 ## What is CharityWell?
 CharityWell is a non-profit charity organization established by the community to help donate to those in needs.
@@ -53,3 +54,6 @@ Serve production build:
 ```bash
 bun run preview
 ```
+
+## License
+This source code is under [Apache 2.0 License](LICENSE).
